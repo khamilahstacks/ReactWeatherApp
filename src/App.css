@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
 }
 
 .App-logo {
@@ -24,6 +27,11 @@
   color: white;
 }
 
+.App-footer {
+  font-size: 11px;
+  margin: 10px 0;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
