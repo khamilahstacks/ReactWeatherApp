@@ -27,7 +27,7 @@ export default function App() {
           </a>{" "}
           and{" "}
           <a
-            href=""
+            href="https://github.com/khamilahstacks/ReactWeatherApp.git"
             target="_blank"
             rel="noopener noreferrer"
           >
