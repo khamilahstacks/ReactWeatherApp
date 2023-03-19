@@ -11,7 +11,7 @@ export default function App() {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://github.com/khamilahstacks/ReactWeatherApp.git"
+            href="https://www.linkedin.com/in/khamilah-prevost-9908b3245/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -27,7 +27,7 @@ export default function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://github.com/khamilahstacks/ReactWeatherApp.git"
+            href="https://app.netlify.com/sites/lighthearted-douhua-8e8581/deploys/6416a83e97a24a066aec1391"
             target="_blank"
             rel="noopener noreferrer"
           >
