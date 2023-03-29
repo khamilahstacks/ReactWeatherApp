@@ -17,20 +17,21 @@ export default function WeatherInfo(props) {
         <div className="col-6">
           <div className="d-flex">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} size={52} />
-            </div>
-            <div>
-              <WeatherTemperature celsius={props.data.temperature} />
+              <div>
+                <WeatherIcon code={props.data.icon} size={52} />
+              </div>
+
+                <div>
+                <WeatherTemperature celsius={props.data.temperature} />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="col-6">
-          <ul>
-            <li>🌧️Humidity: {props.data.humidity} %</li>
-            <li>🌬️Wind: {props.data.windspeed} km/h</li>
-          </ul>
+          <div className="col-12 d-flex justify-content-around align-items-center w-250">
+              <div>🌧️Humidity: {props.data.humidity} %</div>
+              <div>💨Wind: {props.data.windspeed} km/h</div>
+          </div>
         </div>
       </div>
-    </div>
   );
 }
